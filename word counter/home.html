@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container {
+        width: auto;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-inline: 20%;
+      }
+      #textInput{
+        margin-left: 50px;
+        max-width: 800px;
+        width: 700px;
+        height: 200px;
+        font-size: 23px;
+      }
+      
+      .stats {
+        margin-top: 20px;
+        display: flex;
+      } 
+      p{
+        margin-left: 70px;
+        font-weight: bolder;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput"></textarea>
+        <div class="stats">
+          <p id="wordCount" style="color: red;">Word Count: 0</p>
+          <p id="charCount" style="color: blue;">Character Count: 0</p>
+          <p id="sentenceCount" style="color: brown;">Sentence Count: 0</p>
+          <p id="paraCount">Paragraph Count: 0</p>
+        </div>
+      </div>
+    
+</body>
+<script src="java.js"></script>
+</html>
